@@ -21,13 +21,28 @@ export default function LightSideScreen({ progress }) {
     >
       <div className="mx-auto max-w-md text-center md:mx-0 md:text-right">
         <h2 className="mb-3 font-serif text-3xl font-semibold tracking-tight text-white md:mb-6 md:text-5xl lg:text-6xl">
-          Lighter Side
+          Your Light Side...
         </h2>
         <p className="text-base leading-relaxed text-stone-400 md:text-xl">
-          Light is clarity, warmth, and the courage to open. It does not erase the
-          dark — it moves with it. Peace is this bright half staying in conversation
-          with shadow, never pretending either one is the whole story.
+          <span className="font-semibold text-white">
+            Light isn't a cure for your daily chaos
+          </span>
+          <span className="text-stone-400">
+            —<span className="font-semibold text-stone-300">it is the courage to meet it.</span>
+          </span>
+          <br />
+          <br />
+          <blockquote className="border-l-2 border-stone-700 py-1 pl-4 font-serif text-[1.05em] leading-snug text-stone-300 italic text-justify md:pl-5">
+            “Both light and shadow are the dance of Love.”
+            <span className="block mt-1 font-normal not-italic text-xs text-right text-stone-400">— Rumi</span>
+          </blockquote>
+          <br />
+          <span className="text-justify">
+            True peace doesn't mute the noise or pretend you aren't overwhelmed.
+            It is letting your warmth and your shadow walk hand in hand through the storm.
+          </span>
         </p>
+   
       </div>
     </motion.div>
   )
